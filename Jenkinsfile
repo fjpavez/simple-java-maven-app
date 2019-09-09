@@ -11,7 +11,7 @@ pipeline {
                 sh 'mvn -B -DskipTests clean package'
             }
         }
-        /*stage('Test') {
+        tage('Test') {
             steps {
                 sh 'mvn test'
             }
@@ -21,7 +21,7 @@ pipeline {
                 }
             }
         }
-        stage('Deliver') {
+        /*sstage('Deliver') {
             steps {
                 sh './jenkins/scripts/deliver.sh'
             }
